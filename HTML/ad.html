@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/telas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../imagens/lol.png">
+    <title>Pagina Runas Foda</title>
+</head>
+
+<body>
+    <section style="position: absolute;">
+        <audio id="musica">
+            <source src="../imagens/musica/02. Legends Never Die - Instrumental.mp3">
+        </audio>
+        <div class="botoes">
+            <button onclick="tocarMusica()" class="colorBottom"><i id="controle" class="fa fa-play"></i>
+            </button>
+            <button onclick="document.getElementById('musica').volume += 0.1" class="colorBottom"><i
+                    class="fa fa-volume-up"></i></button>
+            <button onclick="document.getElementById('musica').volume -= 0.1" class="colorBottom"><i
+                    class="fa fa-volume-down"></i></button>
+        </div>
+    </section>
+    <div class="container">
+        <div class="menu-principal">
+            <h1>AD CARRYS</h1>
+            <nav class="campeoes">
+                <a href="https://www.op.gg/champions/lucian/adc/build" target="_blank"><img
+                        src="../imagens/champions/lucian.png" alt="lucian">
+                    <div>lucian, o Purificador</div>
+                </a>
+                <a href="https://www.op.gg/champions/vayne/adc/build" target="_blank"><img
+                        src="../imagens/champions/vayne.png" alt="vayne">
+                    <div>Vayne, a Caçadora Noturna</div>
+                </a>
+                <a href="https://www.op.gg/champions/jhin/adc/build" target="_blank"><img
+                        src="../imagens/champions/jhin.png" alt="jhin">
+                    <div>Jhin, o Virtuoso</div>
+                </a>
+                <a href="https://www.op.gg/champions/ezreal/adc/build" target="_blank"><img
+                        src="../imagens/champions/ezreal.png" alt="ezreal">
+                    <div>Ezreal, o Explorador Pródigio</div>
+                </a>
+                <a href="https://www.op.gg/champions/kaisa/adc/build" target="_blank"><img
+                        src="../imagens/champions/kaisa.png" alt="kaisa">
+                    <div>Kai'sa, a Filha do Vazio</div>
+                </a>
+            </nav>
+        </div>
+    </div>
+</body>
+    <script src="../JS/script.js"></script>
+
+</html>

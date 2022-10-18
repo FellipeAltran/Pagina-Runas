@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/telas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../imagens/lol.png">
+    <title>Pagina Runas Foda</title>
+</head>
+
+<body>
+    <section style="position: absolute;">
+        <audio id="musica">
+            <source src="../imagens/musica/02. Legends Never Die - Instrumental.mp3">
+        </audio>
+        <div class="botoes">
+            <button onclick="tocarMusica()" class="colorBottom"><i id="controle" class="fa fa-play"></i>
+            </button>
+            <button onclick="document.getElementById('musica').volume += 0.1" class="colorBottom"><i
+                    class="fa fa-volume-up"></i></button>
+            <button onclick="document.getElementById('musica').volume -= 0.1" class="colorBottom"><i
+                    class="fa fa-volume-down"></i></button>
+        </div>
+    </section>
+    <div class="container">
+        <div class="menu-principal">
+            <h1>MID LANERS</h1>
+            <nav class="campeoes">
+                <a href="https://www.op.gg/champions/yasuo/mid/build" target="_blank"><img
+                        src="../imagens/champions/yasuo.png" alt="yasuo">
+                    <div>Yasuo, o Imperdoável</div>
+                </a>
+                <a href="https://www.op.gg/champions/ryze/mid/build" target="_blank"><img
+                        src="../imagens/champions/ryze.png" alt="ryze">
+                    <div>Ryze, o Mago Rúnico</div>
+                </a>
+                <a href="https://www.op.gg/champions/viktor/mid/build" target="_blank"><img
+                        src="../imagens/champions/viktor.png" alt="viktor">
+                    <div>Viktor, o Arauto das Máquinas</div>
+                </a>
+                <a href="https://www.op.gg/champions/veiagr/mid/build" target="_blank"><img
+                        src="../imagens/champions/veigar.png" alt="veigar">
+                    <div>Veigar, o Pequeno Mestre do Mal</div>
+                </a>
+                <a href="https://www.op.gg/champions/yone/mid/build" target="_blank"><img
+                        src="../imagens/champions/yone.png" alt="yone">
+                    <div>Yone, o Inesquecido</div>
+                </a>
+                <a href="https://www.op.gg/champions/talon/mid/build" target="_blank"><img
+                        src="../imagens/champions/talon.png" alt="talon">
+                    <div>Talon, a Sombra da Lâmina</div>
+                </a>
+                <a href="https://www.op.gg/champions/zed/mid/build" target="_blank"><img
+                        src="../imagens/champions/zed.png" alt="zed">
+                    <div>Zed, o Mestre das Sombras</div>
+                </a>
+            </nav>
+        </div>
+    </div>
+</body>
+<script src="../JS/script.js"></script>
+
+</html>

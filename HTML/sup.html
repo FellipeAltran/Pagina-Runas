@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/telas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../imagens/lol.png">
+    <title>Pagina Runas Foda</title>
+</head>
+
+<body>
+    <section style="position: absolute;">
+        <audio id="musica">
+            <source src="../imagens/musica/02. Legends Never Die - Instrumental.mp3">
+        </audio>
+        <div class="botoes">
+            <button onclick="tocarMusica()" class="colorBottom"><i id="controle" class="fa fa-play"></i>
+            </button>
+            <button onclick="document.getElementById('musica').volume += 0.1" class="colorBottom"><i
+                    class="fa fa-volume-up"></i></button>
+            <button onclick="document.getElementById('musica').volume -= 0.1" class="colorBottom"><i
+                    class="fa fa-volume-down"></i></button>
+        </div>
+    </section>
+    <div class="container">
+        <div class="menu-principal">
+            <h1>SUPORTES</h1>
+            <nav class="campeoes">
+                <a href="https://www.op.gg/champions/blitzcrank/support/build" target="_blank"><img
+                        src="../imagens/champions/blitzcrank.png" alt="blitzcrank">
+                    <div>Blitzcrank, o Grande Golem a Vapor</div>
+                </a>
+                <a href="https://www.op.gg/champions/pyke/support/build" target="_blank"><img
+                        src="../imagens/champions/pyke.png" alt="pyke">
+                    <div>Pyke, o Estripador das Águas Sangrentas</div>
+                </a>
+                <a href="https://www.op.gg/champions/morgana/support/build" target="_blank"><img
+                        src="../imagens/champions/morgana.png" alt="morgana">
+                    <div>Morgana, a Caída</div>
+                </a>
+            </nav>
+        </div>
+    </div>
+</body>
+<script src="../JS/script.js"></script>
+
+</html>

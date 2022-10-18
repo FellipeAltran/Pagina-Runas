@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../imagens/gif/gif1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    backdrop-filter: blur(25px);
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-principal {
+    align-self: center;
+    text-align: center;
+    min-width: 400px;
+}
+
+.menu-principal h1 {
+    background: #1D2040;
+    color: #fff;
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.menu-principal nav {
+    display: inline-block;
+    background-color: #fff;
+    min-width: 400px;
+}
+
+.menu-principal a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    border-bottom: solid 5px #1D2040;
+    font-size: 1.2em;
+    line-height: 100%;
+    top: 50%;
+    border-left: solid 5px #1D2040;
+    border-right: solid 5px #1D2040;
+}
+
+.menu-principal a div {
+    text-align: left;
+    margin-left: 48px;
+    width: 100%;
+    line-height: 72px;
+}
+
+.menu-principal a:hover {
+    background-color: #D5D8F6;
+}
+
+.botoes{
+    display: flex;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.colorBottom{
+    color: white;
+    background-color: #fff0;
+    border: none;
+}
+
+
